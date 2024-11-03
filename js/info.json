@@ -1,0 +1,16 @@
+{
+  "workExp": [
+    { "work": "Kundservice/Techsupport", "time": "Full Time", "company": "HI3G", "place": "Stockholm", "date": "jan 2021 - jan 2024" },
+    { "work": "Vaktmästare", "time": "Part Time", "company": "Svenska Kyrkan", "place": "Stockholm", "date": "jan 2019 - jan 2021" },
+    { "work": "Internship", "time": "Part Time", "company": "Company Name here", "place": "Stockholm", "date": "jan 2019 - jan 2021" }
+  ],
+  "educationExp": [
+    { "education": "Javascript Utveckling", "time": "Full Time", "company": "Chas Academy", "place": "Stockholm", "date": "jan 2024 - jan 2026" },
+    { "education": "El- och Energiprogrammet", "time": "Full Time", "company": "Grillska gymnasium", "place": "Stockholm", "date": "jan 2018 - jan 2021" },
+    { "education": "Grundskolan", "time": "Full Time", "company": "Mariaskolan", "place": "Stockholm", "date": "aug 2008 - june 2017" }
+  ],
+  "Projects": [
+    { "name": "", "livePreview": "", "viewCode": "", "img": "", "techStack": "" },
+    { "name": "", "livePreview": "", "viewCode": "", "img": "", "techStack": "" }
+  ]
+}

@@ -1,0 +1,28 @@
+.stack-main-paragraph {
+  color: var(--paragraph-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.stack-section {
+  margin-bottom: 2rem;
+}
+.stack-main-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 5%;
+  justify-items: center;
+}
+.stack-main-section img {
+  padding: 0.5rem;
+}
+
+@media (min-width: 1200px) {
+  .stack-main-section {
+    grid-template-columns: repeat(6, 1fr);
+    margin: 7rem 0 4rem 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+}

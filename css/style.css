@@ -274,10 +274,19 @@
   background: var(--secondary-paragraph-color);
   background-clip: text;
 }
+/* look over */
+
+.js-scroll {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+.js-scroll.scrolled {
+  opacity: 1;
+}
 
 @media (min-width: 1200px) {
   * {
-    /* border: 2px solid black; */
+    border: 2px solid black;
   }
   html {
     font-size: 1.5rem;

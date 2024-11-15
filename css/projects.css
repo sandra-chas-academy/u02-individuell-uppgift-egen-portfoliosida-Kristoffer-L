@@ -1,0 +1,102 @@
+.projects-section-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1rem 1rem 1fr;
+  row-gap: 3rem;
+  margin-top: 3rem;
+}
+.projects-section-headline {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 0;
+  color: var(--headline-color);
+  font-size: 1.8rem;
+}
+.projects-main-paragraph {
+  color: var(--paragraph-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.projects-article-container {
+  border-radius: 2rem;
+  box-shadow: 0 1rem 0.5rem #c5c5c5;
+}
+.projects-img {
+  width: 100%;
+  height: auto;
+}
+.projects-article-headline {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+.projects-article-paragraph {
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+}
+.projects-article-info {
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  margin: 1em 0;
+}
+.projects-text-container {
+  margin: 1rem;
+}
+.projects-link-container {
+  display: flex;
+  justify-content: space-between;
+}
+.projects-link-items {
+  display: flex;
+  width: 50%;
+}
+.projects-link-items-end {
+  display: flex;
+  justify-content: end;
+}
+.projects-link-text {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+}
+
+@media (min-width: 1200px) {
+  .projects-section-container {
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 1rem 1rem 1fr;
+    gap: 3rem 5%;
+    margin-top: 5rem;
+  }
+  .projects-section-headline {
+    font-family: "Poppins", sans-serif;
+    padding: 1rem 0;
+    color: var(--headline-color);
+    font-size: 1.8rem;
+    grid-area: 1 / 1 / 1 / 4;
+  }
+  .projects-main-paragraph {
+    color: var(--paragraph-color);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    grid-area: 2 / 1 / 2 / 4;
+  }
+  .projects-article-container {
+    border-radius: 1.5rem;
+    box-shadow: 0 5rem 5rem #c5c5c5;
+  }
+  .projects-article-info {
+    font-size: 0.65rem;
+  }
+  .projects-link-items {
+    display: flex;
+    width: 50%;
+  }
+  .projects-article-headline {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+}

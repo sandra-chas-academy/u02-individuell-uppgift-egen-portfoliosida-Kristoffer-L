@@ -1,0 +1,31 @@
+.contact-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-section-headline {
+  font-family: "DM Sans", sans-serif;
+  color: #1e0e62;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.contact-section-headline-email {
+  font-family: "DM Sans", sans-serif;
+  background: var(--secondary-gradient-color);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.contact-main-container {
+  margin: 3rem 0 100% 0;
+}
+
+@media (min-width: 1200px) {
+  .contact-main-container {
+    margin: 5rem 0 23.5rem 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+}

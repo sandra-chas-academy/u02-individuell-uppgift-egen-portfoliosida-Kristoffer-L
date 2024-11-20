@@ -16,6 +16,16 @@
   border-radius: 50%;
   padding: 0.5rem;
 }
+.index-btn-left,
+.index-btn-right {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem;
+}
+.index-btn-left:hover,
+.index-btn-right:hover {
+  background-color: var(--headline-color);
+}
 
 @media (min-width: 1200px) {
   .index-main-container {

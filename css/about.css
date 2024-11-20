@@ -38,6 +38,12 @@
   display: flex;
   flex-wrap: wrap;
 }
+.about-article-experience-container,
+.about-article-date-container,
+.about-article-location-container {
+  display: flex;
+  flex: 1 50%;
+}
 .about-article-date-container {
   justify-content: flex-end;
 }

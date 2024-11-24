@@ -1,6 +1,6 @@
 async function getInfo() {
   try {
-    const response = await fetch("./info.json");
+    const response = await fetch("./json/about.json");
 
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);

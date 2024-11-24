@@ -11,8 +11,8 @@
 }
 .index-img {
   background-image: var(--primay-gradient-color);
-  width: 18rem;
-  height: 18rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
   padding: 0.5rem;
 }
@@ -38,9 +38,9 @@
   }
   .index-text {
     font-family: "Poppins", sans-serif;
-    font-size: 2.4rem;
+    font-size: 1.7rem;
     font-weight: 700;
-    line-height: 3rem;
+    line-height: 2.5rem;
   }
 }
 

@@ -17,7 +17,7 @@
   padding: 0.5rem;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
   .stack-main-section {
     grid-template-columns: repeat(6, 1fr);
     margin: 7rem 0 4rem 0;

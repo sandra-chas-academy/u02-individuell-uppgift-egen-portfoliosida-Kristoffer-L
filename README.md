@@ -40,7 +40,7 @@ När hämtningen av projekten sker ska det finnas information om att projekten h
 
 Mitt arbete har gått bra med att lägga in interaktiva funktioner med en slideshow på profilbilden i index.html och även en funkation för att kunna visa och dölja navigeringsfältet(nav).
 
-Arbetet med github-API gick bra, dock hade jag större problem med att github inte låter en skicka för många förfrågningar om info från github. detta leder till att då och då så får man inte infon man behöver för att få project.gtml att fungera korrekt, och istället får ett felmeddelande i konsolen(felmeddelande: 403).
+Arbetet med github-API gick bra, dock hade jag större problem med att github inte låter en skicka för många förfrågningar om info från github. Detta leder till att då och då så får man inte infon man behöver för att få project sidan att fungera korrekt, och istället får ett felmeddelande i konsolen(felmeddelande: 403). Från det jag förstod så var det vitala problemet att jag först frågar om mina repositories men även frågar om techstack från github api:n, detta leder till ca 10 förfrågningar per refresh av sidan.
 
 Min css fil var väldigt full med all style kod för alla 5 html filer. det jag gjorde var att dela upp css filen i 5 nya men även sparade den gamla filen för style kod som används på alla sidor samt darkmode.
 
@@ -48,15 +48,15 @@ Min css fil var väldigt full med all style kod för alla 5 html filer. det jag 
 
 Vad kan man utveckla m.h.a av Javascript inom frontend?
 
-Javascript används för att skapa interaktiva funktioner i din sida.
+Javascript används för att skapa interaktiva sidor med hjälp av att manipulera DOM(Document Object Model). Setta betyder att man med hjälp av javascript skapar knappar/interactiva element. API förfrågningar används ofta inom javascript för att hämta information från filer och sidor för att visa informationen på sidan.
 
 Vad är JSON och hur används det inom frontend?
 
-JSON står för Javascript Object Notation och är ett textbaserat dataformat för att kunna skicka och ta emot data
+JSON står för Javascript Object Notation och är ett textbaserat dataformat för att kunna spara och skicka information till sidan när det får förfrågan via await fetch eller en promise. sedan kan utvecklaren som har frågat om infon koppla det till kod och visa upp det eller använda koden för att på något sett interagera med sidans variablar och funktioner
 
 Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
 
-HTTP står för Hypertext Transfer protocol. detta protokoll används för att ansluta till webbsidor. alternativt så finns även HTTPS som är säkrare än HTTP.
+HTTP står för Hypertext Transfer protocol. detta protokoll används för att överföra data via internet och då kunna ansluta till webbsidor som ligger på en server med hjälp av en URL. alternativt så finns även HTTPS som är säkrare än HTTP.
 
 ## Kriterier för bedömning
 

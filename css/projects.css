@@ -45,15 +45,10 @@
 }
 .projects-link-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .projects-link-items {
   display: flex;
-  width: 50%;
-}
-.projects-link-items-end {
-  display: flex;
-  justify-content: end;
 }
 .projects-link-text {
   font-family: "Poppins", sans-serif;
@@ -92,10 +87,6 @@
   }
   .projects-article-info {
     font-size: 0.65rem;
-  }
-  .projects-link-items {
-    display: flex;
-    width: 50%;
   }
   .projects-article-headline {
     margin-bottom: 0.5rem;

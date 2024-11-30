@@ -1,7 +1,4 @@
 let navDisplayBoolean = true;
-// document.getElementById("nav-icon-id").onclick = function () {
-//   displayNav();
-// };
 const navButton = document.querySelector(".nav-icon");
 navButton.addEventListener("click", displayNav);
 function displayNav() {
